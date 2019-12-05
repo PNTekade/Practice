@@ -1,3 +1,370 @@
 change 1
 vdhvg
 change 2
+
+'findstr' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin
+λ e:
+
+E:\
+λ cd E:\newenv\PROJECTS\oauth2
+
+E:\newenv\PROJECTS\oauth2 (master)
+λ git commit -m 'updated project'
+error: pathspec 'project'' did not match any file(s) known to git.
+
+E:\newenv\PROJECTS\oauth2 (master)
+λ dc..
+'dc..' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\newenv\PROJECTS\oauth2 (master)
+λ cd..
+
+E:\newenv\PROJECTS
+λ cd..
+
+E:\newenv
+λ cd..
+
+E:\
+λ  mkdir git
+
+E:\
+λ cd git
+
+E:\git
+λ ''>a.txt
+'''' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git
+λ '' > a.txt
+'''' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git
+λ "" > a.txt
+'""' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git
+λ . > a.txt
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git
+λ "">a.txt
+'""' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git
+λ "">b.txt
+'""' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git
+λ git init
+Initialized empty Git repository in E:/git/.git/
+
+E:\git (master)
+λ git remote add origin master https://github.com/PNTekade/Practice.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+E:\git (master)
+λ git clone https://github.com/PNTekade/Practice.git
+Cloning into 'Practice'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+E:\git (master)
+λ cd Practice\
+
+E:\git\Practice (master)
+λ gti init
+'gti' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git\Practice (master)
+λ git init
+Reinitialized existing Git repository in E:/git/Practice/.git/
+
+E:\git\Practice (master)
+λ git add .
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+E:\git\Practice (master)
+λ ''>a.txt
+'''' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\git\Practice (master)
+λ git add a.txt
+
+E:\git\Practice (master)
+λ git commit -m 'a.txt added'
+error: pathspec 'added'' did not match any file(s) known to git.
+
+E:\git\Practice (master)
+λ git commit -m "file add"
+[master 5002852] file add
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+
+E:\git\Practice (master)
+λ  git commit --amend -m "new txt file added"
+[master ed06f2b] new txt file added
+ Date: Thu Dec 5 17:07:54 2019 +0530
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com': JohnWick-1
+Password for 'https://JohnWick-1@github.com':
+remote: Permission to PNTekade/Practice.git denied to JohnWick-1.
+fatal: unable to access 'https://github.com/PNTekade/Practice.git/': The requested URL returned error: 403
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com': PNTekade
+Password for 'https://PNTekade@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 272 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/PNTekade/Practice.git
+   2b320a2..ed06f2b  master -> master
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   a.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\git\Practice (master)
+λ git commit -m "a updated"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   a.txt
+
+no changes added to commit
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   a.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\git\Practice (master)
+λ git add a.txt
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   a.txt
+
+
+E:\git\Practice (master)
+λ git commit -m "updated file"
+[master e68df0c] updated file
+ 1 file changed, 1 insertion(+)
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com': PNTekade
+Password for 'https://PNTekade@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 270 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/PNTekade/Practice.git
+   ed06f2b..e68df0c  master -> master
+
+E:\git\Practice (master)
+λ git add a.txt
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   a.txt
+
+
+E:\git\Practice (master)
+λ git add a.txt
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   a.txt
+
+
+E:\git\Practice (master)
+λ git commit -m "updated 2 time"
+[master 28affdf] updated 2 time
+ 1 file changed, 1 insertion(+)
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com': PNTekade
+Password for 'https://PNTekade@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PNTekade/Practice.git/'
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com': Homeno.100Git
+Password for 'https://Homeno.100Git@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PNTekade/Practice.git/'
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com': PNTekade
+Password for 'https://PNTekade@github.com':
+To https://github.com/PNTekade/Practice.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/PNTekade/Practice.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\git\Practice (master)
+λ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/PNTekade/Practice
+   e68df0c..ed3ae58  master     -> origin/master
+Auto-merging a.txt
+CONFLICT (content): Merge conflict in a.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+        new file:   a.txt~
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   a.txt
+
+
+E:\git\Practice (master)
+λ git add a.txt
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   a.txt
+        new file:   a.txt~
+
+
+E:\git\Practice (master)
+λ git commit -m "updated 3 time"
+[master 9d36e4c] updated 3 time
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com': PNTekade
+Password for 'https://PNTekade@github.com':
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 579 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/PNTekade/Practice.git
+   ed3ae58..9d36e4c  master -> master
+
+E:\git\Practice (master)
+λ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+E:\git\Practice (master)
+λ git push origin master
+Username for 'https://github.com':
+Password for 'https://@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PNTekade/Practice.git/'
+
+E:\git\Practice (master)
+λ
+E:\git\Practice (master)

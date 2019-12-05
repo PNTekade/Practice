@@ -267,9 +267,7 @@ fatal: Authentication failed for 'https://github.com/PNTekade/Practice.git/'
 
 E:\git\Practice (master)
 λ git push origin master
-Username for 'https://github.com': Homeno.100Git
-Password for 'https://Homeno.100Git@github.com':
-remote: Invalid username or password.
+
 fatal: Authentication failed for 'https://github.com/PNTekade/Practice.git/'
 
 E:\git\Practice (master)
